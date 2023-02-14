@@ -1,11 +1,8 @@
 package in.co.basics;
 
-import javax.sound.midi.Soundbank;
-
 public class Armstrong {
 	public static void main(String[] args) {
-		int num =153;
-		
+		int num =153;		
 		int r ;
 		int sum=0;
 		int n=num;
@@ -13,7 +10,6 @@ public class Armstrong {
 			r=n%10;
 			sum=sum+(r*r*r);
 			n=n/10;
-			
 		}
 		if(sum==num) { 
 			System.out.println("Armstrong Number");

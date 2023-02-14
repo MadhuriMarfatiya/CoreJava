@@ -2,7 +2,7 @@ package in.co.basics;
 
 public class PrimeNumber {
 	public static void main(String[] args) {
-		int number = 9, m = 0;
+		int number = 5, m = 0;
 
 		for (int i = 2; i <= number - 1; i++) {
 
