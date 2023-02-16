@@ -6,9 +6,10 @@ public class StringToOtherDataType {
 		// TODO Auto-generated method stub
 
 		
-		  String str ="5.5"; int i = Integer.parseInt(str); System.out.println(i);
-		  
-		 
+		  String str ="500"; 
+		  int i = Integer.parseInt(str); 
+		  System.out.println(i);
+		   
 		//String str = "5.5";
 
 		double d = Double.parseDouble(str);

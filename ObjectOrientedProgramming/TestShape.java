@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package in.co.objectOrientedProgramming;
 
 public class TestShape {
 
