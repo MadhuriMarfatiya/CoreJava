@@ -1,13 +1,12 @@
 package in.co.objectOrientedProgramming;
 
-public class Circle {
+public class Circle extends Shape{
 	private int radius=0;
 	public static final float PI=3.14f;
-	private double area =0;
+	//private double area =0;
 
-	public void area() {
-		float area=PI*radius*radius;
-	}
+	
+	
 	public void setRadius(int radius) {
 		this.radius=radius;
 	}
@@ -15,5 +14,9 @@ public class Circle {
 	public int getRadius() {
 		return radius;
 			}
+	public double area() {
+		double area=PI*getRadius()*getRadius();
+		return area;
 	
+}
 }

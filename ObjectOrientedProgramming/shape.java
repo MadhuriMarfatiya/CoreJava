@@ -1,7 +1,6 @@
 package in.co.objectOrientedProgramming;
 
-public class shape {
-	
+public class Shape {
 	private String color =null;
 	private int borderWidth=0;
 	
@@ -19,6 +18,10 @@ public class shape {
 	
 	public int getBorderWidth() {
 		return borderWidth;
+	}
+
+	public double area() {
+		return 0.0;
 	}
 
 }
