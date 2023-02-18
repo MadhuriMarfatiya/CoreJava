@@ -30,7 +30,7 @@ public class Shape {
 	private int borderWidth=0;
 	
 	public Shape() {//default Constructor
-		System.out.println("This is default constructor");
+		//System.out.println("This is default constructor");
 		
 	}
 	public Shape(String color,int borderWidth) {//constructor overloading
@@ -43,6 +43,9 @@ public class Shape {
 	}
 	public String getColor() {
 		return color;
+	}
+	public double area() {
+		return 0.0;
 	}
 	
 }
