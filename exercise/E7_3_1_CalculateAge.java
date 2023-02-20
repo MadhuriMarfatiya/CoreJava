@@ -10,7 +10,8 @@ public class E7_3_1_CalculateAge {
 		// TODO Auto-generated method stub
 			
 			Date d =new Date();
-			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");                           
+			
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy"); 
 		    Date birthdate =sdf.parse("28/03/1991");
 		    		
 			

@@ -15,8 +15,6 @@ public class TestShape2 {
 		for(int i=0;i<s.length;i++) {
 			sum=sum+s[i].area();
 			
-		}System.out.println("sum of area of all:"+sum);
-		
+		}System.out.println("sum of area of all:"+sum);	
 	}
-
 }

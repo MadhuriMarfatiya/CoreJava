@@ -25,10 +25,6 @@ public class TestShape {
 		Triangle t1=new Triangle(10,20);
 		t1.area();
 		System.out.println("Base of Triangle: "+t1.getBase());
-		System.out.println("Hight of Triangle: "+t1.getHight());
-		
-		
-		
+		System.out.println("Hight of Triangle: "+t1.getHight());	
 	}
-
 }
