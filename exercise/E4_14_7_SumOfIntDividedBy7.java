@@ -9,11 +9,7 @@ public class E4_14_7_SumOfIntDividedBy7 {
 		{
 			if(i%7==0) {
 			sum= sum+i;}}
-		
 			System.out.println("sum of numbers >100 and <200 and divisible by 7: "+sum);
-
-		
-
 	}
 
 }

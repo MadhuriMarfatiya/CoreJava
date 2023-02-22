@@ -14,7 +14,6 @@ public class E4_14_8_2DArrayTable2To10 {
 			}System.out.println();
 		}
 		}
-		
 	}
 
 

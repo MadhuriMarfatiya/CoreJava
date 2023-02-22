@@ -1,9 +1,6 @@
 package in.co.exercise;
-
 public class E4_14_18 {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int a[]= {8,7,6,5,4,3,2,1};
 		int b=7;
 		add(b,a);
@@ -23,5 +20,4 @@ public class E4_14_18 {
 			{System.out.println(-1);
 			}
 	}
-
 }

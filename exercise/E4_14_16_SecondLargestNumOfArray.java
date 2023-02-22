@@ -1,13 +1,7 @@
 package in.co.exercise;
-
 public class E4_14_16_SecondLargestNumOfArray {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		
 		int array[]= {25,26,29,30,32};
-		
 		int max=array[0];
 		int slarge=array[1];
 		

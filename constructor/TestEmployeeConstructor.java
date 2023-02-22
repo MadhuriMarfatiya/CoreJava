@@ -11,6 +11,7 @@ public class TestEmployeeConstructor {
 		System.out.println(e1.firstname);
 		System.out.println(e1.lastname);
 		System.out.println(e1.designation);
+		e1.changeAddress();
 		
 	}
 

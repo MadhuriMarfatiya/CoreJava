@@ -8,7 +8,6 @@ public class E4_14_4_Factorial {
 			fact=fact*i;
 		}
 		System.out.println("fact of number :"+fact);
-		
 	}
 
 }
