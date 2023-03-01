@@ -35,18 +35,9 @@ public class Account {
 	}
 
 	public void withdrawal(double amount) {
-
-		
 		  double total = getBalance() - amount;
-		  
 		  if (total > 2000) {
-		  
-		  setBalance(total);
-		  
-		  //System.out.println("Balance after withdrawl = " + total);
-		  
-		  }
-		  
+		  setBalance(total);}
 		  else {
 			  try {
 		  throw new AccountException();
@@ -79,9 +70,9 @@ public class Account {
 		  setBalance(total);	  
 		  }
 		  else try{
-			  throw new AccountException();}
-		  catch(Exception e) {
-			  System.out.println("insufficient fund");
+			  throw new AccountException();
+		  }catch(Exception e) {
+			  System.err.println("insufficient fund");
 				  
 			  }
 			

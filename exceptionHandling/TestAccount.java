@@ -17,12 +17,12 @@ public class TestAccount {
 		System.out.println("Balance is : "+a.getBalance());
 		a.deposit(1000);
 		System.out.println("balance after deposit : "+a.getBalance());
-		a.withdrawal(500);
+		a.withdrawal(50);
 		System.out.println("Balance after withdrawal: "+a.getBalance());
 		a.fundTransfer(500);
 		System.out.println("Balance after Fund transfer: "+a.getBalance());
-		a.payBill(200);
-		System.out.println("Balance after paybill : "+a.getBalance());
+		a.payBill(2000);
+		//System.out.println("Balance after paybill : "+a.getBalance());
 		
 		
 	

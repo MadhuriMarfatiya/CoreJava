@@ -19,7 +19,8 @@ public class TryCatch {
 			System.out.println(e);
 			}
 			finally {System.out.println("always runs..");}
-		}catch(Exception e)
+		}
+		catch(Exception e)
 		{
 		System.out.println(e);
 		}
